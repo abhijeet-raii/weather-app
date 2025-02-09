@@ -1,0 +1,69 @@
+/* Background Gradient */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.5s ease-in-out;
+}
+
+
+
+/* Glassmorphism Card */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    transition: background 0.5s ease-in-out;
+}
+
+/* Inputs & Buttons */
+input, button {
+    margin: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Buttons */
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Weather Card */
+.weather-card {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #2c3e50;
+    color: white;
+}
+.dark-mode .container {
+    background: rgba(50, 50, 50, 0.6);
+    color: white;
+}
+.dark-mode button {
+    background: #1abc9c;
+}

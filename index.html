@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="weather-icon-png-11102.png">
+
+</head>
+<body>
+    <div class="container">
+        <h1>🌦 Weather App</h1>
+        <button id="location-btn" class="location-btn">📍 Use My Location</button>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button onclick="getWeather()">Check Weather</button>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+
+        <div class="weather-card">
+            <div id="weather-info"></div>
+        </div>
+
+        <h2>📅 5-Day Forecast</h2>
+        <div id="forecast" class="forecast-container"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
