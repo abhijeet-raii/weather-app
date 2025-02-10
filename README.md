@@ -1,4 +1,3 @@
 # weather-app
  
-synoraweather.netlify.app
-
+https://synoraweather.netlify.app
